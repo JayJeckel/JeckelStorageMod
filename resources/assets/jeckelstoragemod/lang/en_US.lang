@@ -1,0 +1,77 @@
+
+itemGroup.main.name=JeckelStorageMod
+
+item.nugget.iron.name=Iron Nugget
+item.part.hoop.name=Barrel Hoop
+item.part.nails.name=Redstone Nails
+
+
+tile.barrel.wood.oak.name=Oak Wood Barrel
+tile.barrel.wood.spruce.name=Spruce Wood Barrel
+tile.barrel.wood.birch.name=Birch Wood Barrel
+tile.barrel.wood.jungle.name=Jungle Wood Barrel
+tile.barrel.wood.acacia.name=Acacia Wood Barrel
+tile.barrel.wood.darkoak.name=Dark Oak Wood Barrel
+
+tile.barrel.rock.sandstone.name=Sandstone Barrel
+tile.barrel.rock.redsandstone.name=Red Sandstone Barrel
+tile.barrel.rock.stone.name=Stone Barrel
+tile.barrel.rock.granite.name=Granite Barrel
+tile.barrel.rock.diorite.name=Diorite Barrel
+tile.barrel.rock.andesite.name=Andesite Barrel
+tile.barrel.rock.prismarine.name=Prismarine Barrel
+tile.barrel.rock.darkprismarine.name=Dark Prismarine Barrel
+
+tile.barrel.metal.iron.name=Iron Barrel
+tile.barrel.metal.gold.name=Gold Barrel
+tile.barrel.metal.copper.name=Copper Barrel
+tile.barrel.metal.tin.name=Tin Barrel
+tile.barrel.metal.bronze.name=Bronze Barrel
+tile.barrel.metal.silver.name=Silver Barrel
+
+tile.barrel.gem.lapis.name=Lapis Barrel
+tile.barrel.gem.diamond.name=Diamond Barrel
+tile.barrel.gem.emerald.name=Emerald Barrel
+tile.barrel.gem.ruby.name=Ruby Barrel
+
+
+tile.crate.wood.oak.name=Oak Wood Crate
+tile.crate.wood.spruce.name=Spruce Wood Crate
+tile.crate.wood.birch.name=Birch Wood Crate
+tile.crate.wood.jungle.name=Jungle Wood Crate
+tile.crate.wood.acacia.name=Acacia Wood Crate
+tile.crate.wood.darkoak.name=Dark Oak Wood Crate
+
+tile.crate.rock.sandstone.name=Sandstone Crate
+tile.crate.rock.redsandstone.name=Red Sandstone Crate
+tile.crate.rock.stone.name=Stone Crate
+tile.crate.rock.granite.name=Granite Crate
+tile.crate.rock.diorite.name=Diorite Crate
+tile.crate.rock.andesite.name=Andesite Crate
+tile.crate.rock.prismarine.name=Prismarine Crate
+tile.crate.rock.darkprismarine.name=Dark Prismarine Crate
+
+tile.crate.metal.iron.name=Iron Crate
+tile.crate.metal.gold.name=Gold Crate
+tile.crate.metal.copper.name=Copper Crate
+tile.crate.metal.tin.name=Tin Crate
+tile.crate.metal.bronze.name=Bronze Crate
+tile.crate.metal.silver.name=Silver Crate
+
+tile.crate.gem.lapis.name=Lapis Crate
+tile.crate.gem.diamond.name=Diamond Crate
+tile.crate.gem.emerald.name=Emerald Crate
+tile.crate.gem.ruby.name=Ruby Crate
+
+
+tile.trunk.armor.name=Armor Trunk
+text.trunk.cargo.armor.name=Armor
+
+
+
+
+
+
+
+
+trunk.cargo.type.armor.text=Armor
