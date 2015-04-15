@@ -5,15 +5,15 @@ import jeckelcorelibrary.base.guis.AContainerTileInventory;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 
-@ChestContainer()
+@ChestContainer(isLargeChest=false)
 public class ContainerCrate extends AContainerTileInventory<TileCrate>
 {
 	public ContainerCrate(final EntityPlayer player, final TileCrate tile)
 	{
-		super(player, tile, tile, 176, tile.getInventoryRowCount() * 18 + 17 + 97);
+		super(player, tile, tile, 176, tile.getInventoryRowCount() * 18 + 25 + 106);
 
 		// Internal Inventory
-		this.addInventorySlots(this._inventory, 8, 18, tile.getInventoryColCount(), tile.getInventoryRowCount());
+		this.addInventorySlots(this._inventory, 8, 26, tile.getInventoryColCount(), tile.getInventoryRowCount());
 
 		// Player Inventory
 		this.addPlayerInventorySlots(this._player.inventory, 8, this._height);
