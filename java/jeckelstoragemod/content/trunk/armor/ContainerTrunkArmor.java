@@ -10,11 +10,11 @@ public class ContainerTrunkArmor extends AContainerTileInventory<TileTrunkArmor>
 {
 	public ContainerTrunkArmor(final EntityPlayer player, final TileTrunkArmor tile)
 	{
-		super(player, tile, tile, 251, 212);
+		super(player, tile, tile, 251, 226);
 
 		// Internal Inventory
 		final int startX = 83;
-		final int startY = 18;
+		final int startY = 26;
 		for (int rowIndex = 0; rowIndex < this._tile.getRowCount(); ++rowIndex)
 		{
 			for (int colIndex = 0; colIndex < this._tile.getColumnCount(); ++colIndex)
@@ -27,11 +27,11 @@ public class ContainerTrunkArmor extends AContainerTileInventory<TileTrunkArmor>
 		}
 
 		// Player Inventory
-		this.addPlayerInventorySlots(player.inventory, 83, this._height);
-		this.addPlayerHotbarSlots(player.inventory, 83, this._height);
+		this.addPlayerInventorySlots(player.inventory, 46, this._height);
+		this.addPlayerHotbarSlots(player.inventory, 46, this._height);
 
 		// Player Armor
-		this.addPlayerArmorSlots(player.inventory, 63, 18);
+		this.addPlayerArmorSlots(player.inventory, 63, 26);
 	}
 
 	@Override public ItemStack transferStackInSlot(EntityPlayer player, int slotIndex)
