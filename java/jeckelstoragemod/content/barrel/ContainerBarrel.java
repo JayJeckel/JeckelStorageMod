@@ -10,13 +10,13 @@ public class ContainerBarrel extends AContainerTileInventory<TileBarrel>
 {
 	public ContainerBarrel(EntityPlayer player, TileBarrel tile)
 	{
-		super(player, tile, tile, 176, 166);
+		super(player, tile, tile, 176, 180);
 
 		// Liquid Container Input
-		this.addSlotToContainer(new SlotLiquidContainer(tile, 0, 90, 20));
+		this.addSlotToContainer(new SlotLiquidContainer(tile, 0, 110, 26));
 
 		// Liquid Container Output
-		this.addSlotToContainer(new SlotOutput(tile, 1, 90, 51));
+		this.addSlotToContainer(new SlotOutput(tile, 1, 110, 57));
 
 		// Player Inventory
 		this.addPlayerInventorySlots(this._player.inventory, 8, this._height);
