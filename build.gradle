@@ -28,7 +28,7 @@ mod.setProperty("forgeversion", "10.13.2.1291")
 
 mod.setProperty("id", "jeckelstoragemod")
 mod.setProperty("name", "JeckelStorageMod")
-mod.setProperty("version", "1.4.0-alpha")
+mod.setProperty("version", "1.4.0-beta")
 
 dependencies
 {
